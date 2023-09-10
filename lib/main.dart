@@ -23,9 +23,9 @@ class profile extends StatelessWidget {
             const Text('FLUTTER DEVELOPER',style: TextStyle(fontSize: 20,color: Colors.white,letterSpacing: 5),),
             const SizedBox(height:10),
             Padding(
-              padding: const EdgeInsets.only(right: 200.0,left: 200),
+              padding: const EdgeInsets.only(right: 40.0,left: 40),
               child: Container(
-                height: 0.7,
+                height: 1,
                 decoration: BoxDecoration(
                   color: Colors.grey,
                   gradient: LinearGradient(
@@ -40,31 +40,37 @@ class profile extends StatelessWidget {
               ),
             ),
             const SizedBox(height:30),
-            Container(
-              height: 50,
-              width: 400,
-              decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),color: Colors.white),
-            child: Row(
-              children: const [
-                SizedBox(width: 20,),
-                Icon(Icons.phone,color: Colors.black,),
-                SizedBox(width: 50,),
-                Text('9207536591',style: TextStyle(fontSize: 20,color: Colors.black),),
-              ],
-            ),),
-            const SizedBox(height: 30,),
-            Container(
-              height: 50,
-              width: 400,
-              decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),color: Colors.white),
+            Padding(
+              padding: const EdgeInsets.only(right: 15.0,left: 15),
+              child: Container(
+                height: 50,
+                width: 400,
+                decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),color: Colors.white),
               child: Row(
                 children: const [
                   SizedBox(width: 20,),
-                  Icon(Icons.mail,color: Colors.black,),
-                  SizedBox(width: 50,),
-                  Text('minnu.minnumm2@gmail.com',style: TextStyle(fontSize: 20,color: Colors.black),),
+                  Icon(Icons.phone,color: Colors.black,),
+                  SizedBox(width: 10,),
+                  Text('96675764591',style: TextStyle(fontSize: 20,color: Colors.black),),
                 ],
               ),),
+            ),
+            const SizedBox(height: 20,),
+            Padding(
+              padding: const EdgeInsets.only(right: 15.0,left: 15),
+              child: Container(
+                height: 50,
+                width: 400,
+                decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),color: Colors.white),
+                child: Row(
+                  children: const [
+                    SizedBox(width: 20,),
+                    Icon(Icons.mail,color: Colors.black,),
+                    SizedBox(width: 10,),
+                    Text('minnu.min@gmail.com',style: TextStyle(fontSize: 20,color: Colors.black),),
+                  ],
+                ),),
+            ),
 
 
           ],
